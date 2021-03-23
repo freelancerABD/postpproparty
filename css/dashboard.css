@@ -326,7 +326,7 @@ header {
   .footer .footerlink .img-width img {
     width: 140px;
     margin: 5px;
-    margin-left: -40px; }
+    margin-left: 0px; }
   .footer .footerlink .cftm img {
     width: 200px;background: #333; }
   .footer .footerlink .fa {
