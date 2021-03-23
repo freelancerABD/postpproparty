@@ -1,0 +1,119 @@
+    /* Small devices (landscape phones, 576px and up) */
+    
+    @media (min-width: 576px) {}
+    /* Medium devices (tablets, 768px and up) */
+    
+    @media (min-width: 768px) {}
+    /* Large devices (desktops, 992px and up) */
+    
+    @media (min-width: 992px) {
+        .a {
+            list-style: none;
+            text-decoration: none;
+            color: white;
+        }
+        .bg {
+            background-color: #050711;
+        }
+        .bgtwoimg {
+            width: 85%;
+            padding-left: 30px;
+            padding-top: 250px;
+        }
+        .bg-image {
+            background-image: url(/images/Polygon-1.svg);
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            -webkit-background-size: cover;
+        }
+        .iconlogo {
+            padding: 10px;
+            width: 100%;
+        }
+        .biconlogo {}
+        .icontxt {
+            padding: 10px;
+            width: 100%;
+            padding-top: 90px;
+        }
+        .bicontxt {}
+        .loginbloc {
+            width: 75%;
+            padding-top: 30%;
+            padding-left: 40px;
+        }
+        .forgotpasswd {
+            font-weight: bold;
+            padding: 25px;
+            text-align: end;
+        }
+        .btnloginstep {
+            color: #2F2E41 !important;
+            background: #4AF59B 0% 0% no-repeat padding-box !important;
+            border: 1px solid #2F2E41;
+            opacity: 1;
+        }
+        .btnconnexion {
+            background-color: #6500FF !important;
+            color: white !important;
+            width: 50%;
+        }
+        .btnconnexionregister {
+            background-color: #6500FF !important;
+            color: white !important;
+            width: 50%;
+            margin-top: 45px;
+            font-weight: bold;
+        }
+        .formbloc {
+            padding-bottom: 45px;
+        }
+        .navbg {
+            background-color: #111527 !important;
+        }
+        .navboxlogo {
+            padding-left: 100px;
+        }
+        .naviconlogo {
+            margin-right: 5px;
+        }
+        .navprofile {
+            margin-right: 100px;
+        }
+        .footersoclose {}
+        .titleboard {
+            font-weight: 200;
+            font-size: 28px;
+            text-align: center;
+            padding-top: 100px;
+            padding-bottom: 55px;
+        }
+        .listbot {
+            width: 100%;
+        }
+        .cardbg {
+            text-align: center;
+            background-color: #121526;
+            margin: 15px;
+            border-radius: 5px;
+            margin-bottom: 50px
+        }
+        .cardlogo {
+            padding-top: 30px;
+            padding-bottom: 10px;
+        }
+        .cardtitle {
+            padding-top: 15px;
+            padding-bottom: 10px;
+        }
+        .btndashboard {
+            background-color: #6500FF !important;
+            color: white !important;
+            width: 70%;
+            margin-top: 35px;
+            margin-bottom: 20px;
+        }
+    }
+    /* Extra large devices (large desktops, 1200px and up) */
+    
+    @media (min-width: 1200px) {}

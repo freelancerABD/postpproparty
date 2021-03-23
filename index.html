@@ -1,0 +1,642 @@
+  <!doctype html>
+  <html lang="en">
+
+  <head>
+      <!-- Required meta tags -->
+      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Post Property Ads for free | Sell /Rent Property online - CommonFloor</title> 
+  
+  </head>
+
+<body class="bg">
+<!-- navigation start here -->
+<nav id="navBar" class="snbheader navBar">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6">
+            <a href="#" class="left-arrow"><img src="img/55ovjpq6bo1dpbpq69e2m1lvrq.png" alt="" width="22px" height="22px"></a>
+            <a href="index.html"><img src="img/logo-white.PNG" alt="logo" style="width: 200px;"></a>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+              <div style="position: absolute;right: 125px;top: 25px;">
+                <a href="dashboard.html">
+                <i class="fa fa-user"></i>
+                </a>
+              </div>
+            <div class="log-reg" data-toggle="modal" data-target="#loginModal">
+                <a href="#">Login/Register</a>
+            </div>
+        </div>
+    </div>
+  </div>
+</nav>
+<!-- navigation end -->
+
+<!-- ==================ALL MODAL START HERE===================== -->
+
+<!-- Login_Modal Start -->
+<div class="modal" id="loginModal" class="LogIn">
+    <div class="container">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background-color: #fff;">
+                <div class="modal-header">
+                    <h3 class="text-dark loginc">Login to CommonFloor</h3>
+                    <button class="close text-dark" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body text-dark max__width post__box">
+                    <form id="loginForm">
+                      <div class="input_field">
+                        <div class="d99ta8-0 UcuDn">
+                          <div class="d99ta8-1 kQgOq pR dFA w100">
+                            <input type="email" class="d99ta8-3 bOncag w100 outN" min="" name="available_from" required="" rows="1" value="">
+                            <label class="d99ta8-6 jFzwfj pA" for="available_from">EMAIL ID/PHONE NUMBER</label>
+                          </div>
+                        </div>
+                        <span class="error">Please enter login id</span>
+                      </div>
+                      <div class="input_field">
+                        <div class="d99ta8-0 UcuDn">
+                          <div class="d99ta8-1 kQgOq pR dFA w100">
+                            <input type="password" class="d99ta8-3 bOncag w100 outN" min="" name="available_from" required="" rows="1" value="">
+                            <label class="d99ta8-6 jFzwfj pA" for="available_from">PASSWORD</label>
+                          </div>
+                        </div><span class="error">Invalid Password</span>
+                      </div>
+                      <a href="dashboard.html" style="text-decoration: none;"><input type="button" class="btn orgin disiplayb btn-login" onclick="CfAppActions.submitLoginForm(this,'sign-in');" value="LOGIN"></a>
+
+                        <div class="recaptext">This form is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy" target="_blank"> Privacy Policy</a> and <a href="https://policies.google.com/terms" target="_blank"> Terms of Service</a> apply</div>
+                        <div class="last-div">
+                        <p class="last-div-log">New at CommonFloor ?<span data-toggle="modal" data-target="#signModal"><a href="#" class="ml-1">Sign Up</a></span>
+                          <span style="margin-left: 95px; font-size: 12px;"><a href="#">Forget Password?</span></a>
+                        </p>
+                        </div>
+                        </div>
+                      <div class="modal-footer">
+                        <img class="m-auto" src="img/powered_by_quikr.webp" alt="img" style="width: 160px;">
+                      </div>
+                      </div>
+                    </form>
+                </div>
+            </div> 
+        </div>
+    </div>
+</div>
+<!-- Login_Modal End -->
+<!-- Sign up Start -->
+<div class="modal fade modal-left" id="signModal" class="LogIn">
+    <div class="container">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content" style="background-color: #fff;">
+                <div class="modal-header">
+                    <h3 class="text-dark loginc">Sign Up to CommonFloor</h3>
+                    <button class="close text-dark" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body text-dark max__width post__box">
+                    <form id="loginForm">
+                      <div class="row">
+                        <!-- start -->
+                        <div class="col-lg-6">
+                          <div class="input_field">
+                            <div class="d99ta8-0 UcuDn">
+                              <div class="d99ta8-1 kQgOq pR dFA w100">
+                                <input type="email" class="d99ta8-3 bOncag w100 outN" min="" name="available_from" required="" rows="1" value="">
+                                <label class="d99ta8-6 jFzwfj pA" for="available_from">FULL NAME</label>
+                              </div>
+                            </div>
+                            <span class="error">Please enter login id</span>
+                          </div>
+                          </div>
+                          <!-- end -->
+                        <!-- start -->
+                        <div class="col-lg-6">
+                          <div class="input_field">
+                            <div class="d99ta8-0 UcuDn">
+                              <div class="d99ta8-1 kQgOq pR dFA w100">
+                                <input type="email" class="d99ta8-3 bOncag w100 outN" min="" name="available_from" required="" rows="1" value="">
+                                <label class="d99ta8-6 jFzwfj pA" for="available_from">EMAIL ID</label>
+                              </div>
+                            </div>
+                            <span class="error">Please enter login id</span>
+                          </div>
+                          </div>
+                          <!-- end -->
+                        <div class="col-lg-6">
+                          <div class="input_field">
+                            <div class="d99ta8-0 UcuDn">
+                              <div class="d99ta8-1 kQgOq pR dFA w100">
+                                <input type="text" class="d99ta8-3 bOncag w100 outN" min="" name="available_from" required="" rows="1" value="">
+                                <label class="d99ta8-6 jFzwfj pA" for="available_from">NUMBER</label>
+                              </div>
+                            </div><span class="error">Invalid Password</span>
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="input_field">
+                            <div class="d99ta8-0 UcuDn">
+                              <div class="d99ta8-1 kQgOq pR dFA w100">
+                                <input type="password" class="d99ta8-3 bOncag w100 outN" min="" name="available_from" required="" rows="1" value="">
+                                <label class="d99ta8-6 jFzwfj pA" for="available_from">PASSWORD</label>
+                              </div>
+                            </div><span class="error">Invalid Password</span>
+                          </div>
+                        </div>
+                        <!-- start -->
+                        <div class="col-lg-6">
+                          <div class="input_field">
+                            <div class="d99ta8-0 UcuDn">
+                              <div class="d99ta8-1 kQgOq pR dFA w100">
+                                <input type="email" class="d99ta8-3 bOncag w100 outN" min="" name="available_from" required="" rows="1" value="">
+                                <label class="d99ta8-6 jFzwfj pA" for="available_from">SELECT CITY</label>
+                              </div>
+                            </div>
+                            <span class="error">Please enter login id</span>
+                          </div>
+                        </div>
+                        <!-- end -->
+                        <!-- start -->
+                        <div class="col-lg-6">
+                            <div class="checkbox_raidobox lform mrlt7">
+                              <span class="youare">You are</span>
+                              <div class="crdflex">
+                                <ul class="d-flex mt-1">
+                                    <li class="pr-2">
+                                        <input id="r1" type="radio" name="radio" value="1"/>
+                                        <label for="r1" style="">Owner</label>
+                                    </li>
+                                    <li class="pr-2">
+                                        <input id="r2" type="radio" name="radio" value="2"/>
+                                        <label for="r2" style="">Builder</label>
+                                    </li>
+                                    <li>
+                                        <input id="r3" type="radio" name="radio" value="3"/>
+                                        <label for="r3" style="">Broker</label>
+                                    </li>
+                                </ul>
+                              </div>
+                          </div>
+                        </div>
+                        <!-- end -->
+                        
+                        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mb-0">
+                            <div class="checkbox_raidobox tc">
+                                <label for="tnc">I have read and agree to the <a href="/terms-conditions" target="_blank" class="forgotpass">Terms of Use</a> and <a href="/privacy-policy" target="_blank" class="forgotpass"> Privacy Policy</a>
+                                </label>
+                            </div>
+                        </div>
+                      
+                      <div class="col-lg-12" style="margin-top: -10px;">
+                        <a href="dashboard.html" style="text-decoration: none;"><input type="button" class="btn orgin disiplayb btn-login" onclick="CfAppActions.submitLoginForm(this,'sign-in');" value="SIGN UP"></a>
+                      </div>
+                        <div class="last-div ml-3 mb-0">
+                            <p class="last-div-log ">New at CommonFloor ?<span data-toggle="modal" data-target="#loginModal" class="ml-1"><a href="#">LogIn</a></span></p>
+                        </div>
+                        <div class="recaptext ml-3 mt-0 mb-3">This form is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply</div>
+                      </div>
+                      <div class="modal-footer">
+                        <img class="m-auto" src="img/powered_by_quikr.webp" alt="img" style="width: 160px;">
+                      </div>
+                      </div>
+                    </form>
+                </div>
+            </div> 
+        </div>
+    </div>
+</div>
+<!-- Sign_Up End -->
+<!-- Property Details Modal Start -->
+<div class="modal fade modal-left" id="proModal" class="LogIn">
+    <div class="container">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content" style="background-color: #fff;">
+                <div class="modal-header">
+                    <h3 class="text-dark loginc">Propert Details</h3>
+                    <button class="close text-dark" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body text-dark max__width post__box">
+                     <div class="pl-0 py-3">
+                        <div class="pR">
+                          <div class="price-property UcuDn">
+                            <div class="row mt-2">
+                              <div class="col-sm-6">
+                              <div class="d99ta8-0 UcuDn" required="">
+                                <div class="d99ta8-1 kQgOq pR dFA w100 bot-arrow">
+                                  <input type="text" class="d99ta8-3 bOncag w100 outN" name="available_from" required="" rows="1" value="">
+                                  <label class="d99ta8-6 jFzwfj pA" for="available_from">City*</label>
+                                </div>
+                              </div>
+                              </div>
+                              <div class="col-sm-6">
+                              <div class="d99ta8-0 UcuDn" required="">
+                                <div class="d99ta8-1 kQgOq pR dFA w100 bot-arrow">
+                                  <input type="text" class="d99ta8-3 bOncag w100 outN" name="available_from" required="" rows="1" value="">
+                                  <label class="d99ta8-6 jFzwfj pA" for="available_from">Locality*</label>
+                                </div>
+                              </div>
+                              </div>
+                              <div class="col-sm-12 mt-4">
+                              <div class="d99ta8-0 UcuDn" required="">
+                                <div class="d99ta8-1 kQgOq pR dFA w100 bot-arrow">
+                                  <input type="text" class="d99ta8-3 bOncag w100 outN" name="available_from" required="" rows="1" value="">
+                                  <label class="d99ta8-6 jFzwfj pA" for="available_from">Project Name (Option)</label>
+                                </div>
+                              </div>
+                              </div>
+                              <div class="col-sm-12 mt-3">
+                                <div class="post__box dashed-2">
+                                  <span>Unit Types*</span>
+                                  <div class="sc-1">
+                                    <label><input type="radio" name="radio" value="1" class="inspan d-none">
+                                      <span>1 RK</span>
+                                    </label>
+                                    <label><input type="radio" name="radio" value="2" class="inspan d-none">
+                                      <span>2 BHK</span>
+                                    </label>
+                                    <label><input type="radio" name="radio" value="3" class="inspan d-none">
+                                      <span>3 BHK</span>
+                                    </label>
+                                    <label><input type="radio" name="radio" value="4" class="inspan d-none">
+                                      <span>4 BHK</span>
+                                    </label>
+                                    <label><input type="radio" name="radio" value="4+" class="inspan d-none">
+                                      <span>4+ BHK</span>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            <div class="col-sm-6">
+                              <div class="sQfT-1 UcuDn" required="">
+                                <div class="kQgOq pR dFA w100">
+                                  <span class="sqft"><span style="font-size: 19px;">| </span>Sq.Ft.</span>
+                                  <input type="text" class="in-sqft bOncag w100 outN" name="available_from" required="" rows="1" value="">
+                                  <label class="d99ta8-6 jFzwfj pA" for="available_from">Built up*</label>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="sQfT-1 UcuDn" required="">
+                                <div class="kQgOq pR dFA w100">
+                                  <span class="sqft"><span style="font-size: 19px;">| </span>Sq.Ft.</span>
+                                  <input type="text" class="in-sqft bOncag w100 outN" name="available_from" required="" rows="1" value="">
+                                  <label class="d99ta8-6 jFzwfj pA" for="available_from">Carpet Area*</label>
+                                </div>
+                              </div>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="btn text-light my-4" style="width: 40%; height: 50px;margin-left: 180px;">
+                              Submit
+                       </button>
+          
+                </div>
+            </div> 
+        </div>
+    </div>
+</div>
+<!-- property modal End -->
+
+
+<!-- ==================ALL MODAL END HERE===================== -->
+
+<!-- Top Header start here -->
+    <div class="container-1 bg-white">
+      <header class="top-header">
+      <div class="section pb-4">
+        <div class="top-section pt-5 pb-2 pl-4">
+          <h1 style="font-weight: 600;font-size: 1.75rem;">Post Property</h1>
+          <p>Sell/Rent your property in Simple Steps</p>
+        </div>
+        <div class="bb-top" style="padding: 10px 0px;
+          border-bottom: 1px solid rgb(221, 221, 221);">  
+        </div>
+      <!-- second section -->
+        <div class="post__box dashed pl-4 pb-4 pt-5">
+          <h3>Tell us about your property</h3>
+          <span>List property for*</span>
+          <div class="sc-1">
+            <label class="show"><input type="radio" name="radio" value="Sell" class="inspan d-none">
+              <span class="sell">Sell</span>
+            </label>
+            <label class="hide"><input type="radio" name="radio" value="Rent" class="inspan click d-none">
+              <span class="rent">Rent</span>
+            </label>
+          </div>
+        </div>
+    <!-- second section -->
+        <div class="post__box dashed-2 pl-4">
+          <span>Property Type*</span>
+          <div class="sc-1">
+            <label><input type="radio" name="radio" value="Apartment" class="inspan d-none">
+              <span>Apartment</span>
+            </label>
+            <label><input type="radio" name="radio" value="Builder Floor" class="inspan d-none">
+              <span>Builder Floor</span>
+            </label>
+            <label><input type="radio" name="radio" value="Plot" class="inspan d-none">
+              <span>Plot</span>
+            </label>
+            <label><input type="radio" name="radio" value="House Villa" class="inspan d-none">
+              <span>House Villa</span>
+            </label>
+          </div>
+        </div>
+    <!-- end -->
+    <!-- second section -->
+        <div class="post__box dashed py-0 pl-4" id="target" style="display: none">
+          <span>Available For*</span>
+          <div class="sc-1">
+            <label><input type="radio" name="radio" value="Resale" class="inspan d-none">
+              <span>Resale</span>
+            </label>
+            <label><input type="radio" name="radio" value="New" class="inspan d-none">
+              <span>New</span>
+            </label>
+          </div>
+        </div>
+    <!-- second section -->
+   <!--  max_width start -->
+    <div class="max__width pl-4 py-4">
+      <div class="pR">
+        <div class="d99ta8-0 UcuDn">
+          <div class="d99ta8-1 kQgOq pR dFA w100">
+            <input type="date" class="d99ta8-3 bOncag w100 outN" min="2021-03-20" name="available_from" required="" rows="1" value="2021-03-20">
+            <label class="d99ta8-6 jFzwfj pA" for="available_from">Available from</label>
+          </div>
+        </div>
+        <span class="sc-4hm8r-0 iDgLdo pA peN"><svg width="20" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"></path><path fill-rule="evenodd" d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path></svg></span>
+      </div>
+      <div class="sc-1tonukx-0 WHOYQ cP Ell pR" data-toggle="modal" data-target="#proModal">Property Details*</div>
+    </div>
+    <div class="bb-top" style="padding: 10px 0px;
+          border-bottom: 1px dashed rgb(221, 221, 221); letter-spacing: 2px">  
+    </div>
+  </div>
+  <!-- end -->
+</header>
+
+<!-- section Two start -->
+<section class="section-2 pl-4 pb-4">
+<div class="post__box">
+  <h3 class="h3__heading">Add Photos of your property</h3>
+    <div class="fwW dF"><div class="cjgyKT dIB jcC pR fdC oH dFA undefined"><input type="file" class=".inp-file cP pA o0" multiple=""><svg width="32" viewBox="0 0 72 72" class="sc-1w3oacn-0 gTpEdB">
+    <path d="M23.81,45.14c0,6.73,5.46,12.19,12.19,12.19s12.19-5.46,12.19-12.19S42.73,32.95,36, 32.95 C29.27,32.96,23.82,38.41,23.81,45.14z M36,37.02c4.49,0,8.12,3.64,8.12,8.12s-3.64, 8.13-8.12,8.13s-8.13-3.64-8.13-8.13 S31.51,37.02,36,37.02z M60.37, 28.89v4.06h-8.12v-4.06H60.37z M64.44,37.02h4.06v4.06h-4.06V37.02z M64.44, 45.14h4.06v4.06h-4.06 V45.14z M68.5, 20.77v12.19h-4.06v-8.13H46.6l-2.03-8.12H36v-4.06h11.74l2.03,8.13H68.5z M64.44,53.27h4.06v12.19h-65V34.98h4.06 v26.41h56.87V53.27z M11.63, 34.98h12.19v-8.12h8.13V14.67h-8.13V6.55H11.63v8.12H3.5v12.19h8.13V34.98z M7.56,22.8v-4.06h8.13v-8.12 h4.06v8.12h8.12v4.06h-8.12v8.13h-4.06V22.8H7.56z"></path></svg><span class="dB">Add Photos</span></div>
+  </div>
+  <p class="dxdtfd hmnhWE"><b>Photos <!-- -->0<!-- -->/15</b> Increase your chances of getting genuine responses by adding atleast 5 images. <br> Hall, Bedroom, Kitchen, and Bathroom images will be ideal to add for a home</p>
+</div>
+  <div class="bb-top" style="padding: 10px 0px;
+    border-bottom: 1px solid rgb(221, 221, 221); letter-spacing: 2px">  
+  </div>
+</section>
+
+<!-- section property price -->
+    <section class="section-property">
+      <div class="max__width pl-4 pt-3">
+      <div class="pR post__box">
+        <div class="price-property UcuDn">
+          <h3 class="h3__heading">Property Price</h3>
+          <div class="d99ta8-1 kQgOq pR dFA w100">
+            <input type="number" class="d99ta8-3 bOncag w100 outN" min="2021-03-20" name="available_from" required="" rows="1" value="0">
+            <label class="d99ta8-6 jFzwfj pA" for="available_from">Sale Price*</label>
+          </div>
+          <span style="font-size: 0.75rem;">Zero</span>
+        </div>
+      </div>
+    </div>
+    <div class="chek-pro pl-4 pt-3">
+      <input type="checkbox" /><span class="pl-3 pr-3">Price is negotiable</span>
+      <input type="checkbox" /><span class="pl-3">Price includes registration</span>
+    </div>
+    <div class="bb-top" style="padding: 10px 0px;
+          border-bottom: 1px dashed rgb(221, 221, 221); letter-spacing: 2px">  
+    </div>
+</section>
+<!-- section property price end-->
+
+<!-- section information start -->
+  <section class="section-information">
+    <div class="max__width pl-4 py-5">
+      <div class="pR post__box">
+        <div class="price-property UcuDn">
+          <h3 class="h3__heading">More Information of your property</h3>
+          <div class="d99ta8-1 kQgOq pR dFA w100">
+            <textarea type="text" class="d99ta8-3 bOncag w100 outN" min="2021-03-20" name="available_from" required="" rows="1" value="" style="height: 125px;"></textarea>
+            <label class="d99ta8-6 jFzwfj pA" for="available_from">About property (Min 30 characters)*</label>
+          </div>
+        </div>
+        <div class="d-flex flex-row mt-2">
+          <div class="d99ta8-1 kQgOq pR dFA w100">
+            <input type="number" class="d99ta8-3 bOncag w100 outN" min="2021-03-20" name="available_from" required="" rows="1" value="">
+            <label class="d99ta8-6 jFzwfj pA" for="available_from">Property On Floor*</label>
+          </div>
+          <div class="px-2"></div>
+          <div class="d99ta8-1 kQgOq pR dFA w100">
+            <input type="number" class="d99ta8-3 bOncag w100 outN" min="2021-03-20" name="available_from" required="" rows="1" value="">
+            <label class="d99ta8-6 jFzwfj pA" for="available_from">Total Floors*</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- second section -->
+        <div class="post__box dashed-2 pl-4">
+          <span>Furnishing*</span>
+          <div class="sc-1">
+            <label><input type="radio" name="radio" value="Unfurnished" class="inspan d-none">
+              <span>Unfurnished</span>
+            </label>
+            <label><input type="radio" name="radio" value="Semi Furnished" class="inspan d-none">
+              <span>Semi Furnished</span>
+            </label>
+            <label><input type="radio" name="radio" value="Fully Furnished" class="inspan d-none">
+              <span>Fully Furnished</span>
+            </label>
+          </div>
+        </div>
+    <!-- end -->
+    <!-- second section -->
+        <div class="post__box dashed-2 pl-4">
+          <span>No of Bathrooms*</span>
+          <div class="sc-1">
+            <label><input type="radio" name="radio" value="1" class="inspan d-none">
+              <span>1</span>
+            </label>
+            <label><input type="radio" name="radio" value="2" class="inspan d-none">
+              <span>2</span>
+            </label>
+            <label><input type="radio" name="radio" value="3" class="inspan d-none">
+              <span>3</span>
+            </label>
+            <label><input type="radio" name="radio" value="4" class="inspan d-none">
+              <span>4</span>
+            </label>
+            <label><input type="radio" name="radio" value="4+" class="inspan d-none">
+              <span>4+</span>
+            </label>
+          </div>
+        </div>
+    <!-- end -->
+
+  <!-- Additional details start here -->
+      <section id="accordion" role="tablist">
+        <div class="card card-1 click" style="border: none;">
+          <div data-toggle="collapse" href="#collapse1" aria-expanded="true">
+            <div class="pl-4 py-4 max__width ">
+              <div class="sc-1tonukx-0 gSZSXj cP Ell pR">Additional Details</div>
+            </div>
+          </div>
+          <div id="collapse1" class="collapse" data-parent="#accordion">
+            <div class="card-body pb-5">
+                <form action="">
+                  <select class="form-select" aria-label="Default select example">
+                    <option class="selected">None Of Balconis</option>
+                    <option value="1">1</option>
+                    <option value="1">2</option>
+                    <option value="2">3</option>
+                    <option value="2">4</option>
+                    <option value="3">4+</option>
+                  </select>
+                  <select class="form-select my-3" aria-label="Default select example">
+                    <option class="selected">Socity Animation</option>
+                    <option value="1">Club House</option>
+                    <option value="1">Security</option>
+                    <option value="1">Rain Water Harvesting</option>
+                    <option value="1">Maintenance Staff</option>
+                    <option value="1">Intercom</option>
+                    <option value="2">24Hr Backup</option>
+                  </select>
+                  <select class="form-select mb-3" aria-label="Default select example">
+                    <option class="selected">Direction</option>
+                    <option value="1">North</option>
+                    <option value="1">South</option>
+                    <option value="1">East</option>
+                    <option value="1">West</option>
+                  </select>
+                  <select class="form-select" aria-label="Default select example">
+                    <option class="selected">Parking</option>
+                    <option value="1">4 Wheeler</option>
+                    <option value="2">2 Wheeler</option>
+                    <option value="3">Both</option>
+                    <option value="4">None</option>
+                  </select>
+                </form>
+            </div>
+          </div>
+        </div>
+    </section>
+  <!-- additional details end -->
+
+    <div class="bb-top" style="padding: 10px 0px;
+          border-bottom: 1px dashed rgb(221, 221, 221); letter-spacing: 2px">  
+    </div>
+  </section>
+<!-- section information end -->
+
+<!-- Footer second section -->
+  <section class="footer-section pt-5 pb-3">
+    <div class="post__box dashed-2 pl-4">
+      <h3 class="h3__heading pb-3">Your Details</h3>
+      <span>You are*</span>
+      <div class="sc-1">
+        <label class="hide-1"><input type="radio" name="radio" value="Owner" class="inspan d-none">
+          <span>Owner</span>
+        </label> 
+        <label class="show-1"><input type="radio" name="radio" value="Agent" class="inspan d-none">
+          <span>Agent</span>
+        </label>
+         <label class="hide-1"><input type="radio" name="radio" value="Builder" class="inspan d-none">
+          <span>Builder</span>
+        </label>        
+      </div>
+    </div>
+    <div class="max__width pl-4 py-3">
+      <div class="pR post__box">
+        <div class="price-property UcuDn">
+        <div class="mt-2">
+          <div class="d99ta8-1 kQgOq pR dFA w100">
+            <input type="text" class="d99ta8-3 bOncag w100 outN" name="available_from" required="" rows="1" value="">
+            <label class="d99ta8-6 jFzwfj pA" for="available_from">Full Name*</label>
+          </div>
+          <div class="d99ta8-1 kQgOq pR dFA w100 my-4">
+            <input type="text" class="d99ta8-3 bOncag w100 outN" name="available_from" required="" rows="1" value="">
+            <label class="d99ta8-6 jFzwfj pA" for="available_from">Email Address*</label>
+          </div>
+          <div class="d99ta8-0 UcuDn max__width" required=""><div class="d99ta8-1 kQgOq pR dFA w100"><span class="d99ta8-7 cGTpQz pA">+91</span><input type="tel" class="d99ta8-3 dSCQDA w100 outN" maxlength="10" name="mobile" required="" autocomplete="tel" rows="1" value=""><label class="d99ta8-6 inspan pA" for="mobile">Mobile Number<!-- -->*</label></div><span class="d99ta8-8 llQXfE pA l0 bt3 mt-1">OTP will be sent to your mobile number for verification</span></div>
+
+          <!-- agent section -->
+          <section id="targetAgent" style="width: 115%; display: none;" class="pt-5 pb-0">
+            <div class="bb-top" style="padding:0px; width: 188%;margin-left: -24px;
+              border-bottom: 1px dashed rgb(221, 221, 221); letter-spacing: 2px">  
+          </div>
+            <div class="post__box dashed-2 pt-5 pb-0">
+              <h3>Brokerage Details</h3>
+              <span>Brokerage Type*</span>
+              <div class="sc-1" style="margin-bottom: -10px;">
+                <label><input type="radio" name="radio" value="Resale" class="inspan d-none">
+                  <span>No Brokers</span>
+                </label>
+                <label><input type="radio" name="radio" value="New" class="inspan d-none">
+                  <span>Fixed</span>
+                </label>
+                <label><input type="radio" name="radio" value="New" class="inspan d-none">
+                  <span>Based On Rent</span>
+                </label>
+              </div>
+            </div>
+          </section>
+          <!-- agent section -->   
+
+        <button type="button" class="btn bt1 mt-5 fwGaHt eisOqx">Post Ad Now</button>
+        <p class="jIwUMj mt-3 mb-0">By proceeding, you agree to our<!-- --> 
+          <a class="wsN" href="/terms-conditions" target="_blank" rel="noopener noreferrer">Terms of use</a> <!-- -->&amp;<!-- --> 
+          <a class="wsN" href="/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+        </p>
+        <p class="jIwUMj">To use the old form to list your property<!-- --> 
+          <a href="/post-new-property">click here</a>
+        </p>
+        </div>
+      </div>
+    </div>
+  </section> 
+<!-- Footer section end -->
+</div>
+
+<!-- Footer start here -->
+<footer class="last-footer">
+  <div class="bg-white py-4 text-center" style="border: 2px solid rgb(221, 221, 221);font-size: 0.75rem;">
+    <span>Copyright © 2019 - 2021 propproper.com. All rights reserved.</span>
+  </div>
+</footer>
+<!-- Footer start end -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(".show").click(function(){
+        $("#target").show();
+      });
+      $(".hide").click(function(){
+        $("#target").hide();
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function(){
+      $(".show-1").click(function(){
+        $("#targetAgent").show();
+      });
+      $(".hide-1").click(function(){
+        $("#targetAgent").hide();
+      });
+    });
+  </script>
+</body>
+</html>
